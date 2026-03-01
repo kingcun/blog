@@ -9,7 +9,7 @@ on:
     inputs:
       artifact_url:
         description: 'Cloudflare build artifact URL (.tar.gz, e.g., build-v1.0.0-cloudflare.tar.gz)'
-        required: true
+        required: false
         type: string
       environment:
         description: 'Deployment environment'
